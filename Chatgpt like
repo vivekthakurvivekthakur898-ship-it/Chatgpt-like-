@@ -1,0 +1,24 @@
+html
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My AI Chat App</title>
+</head>
+<body>
+  <h2>My ChatGPT Style App</h2>
+
+  <input id="question" placeholder="Type your question here" />
+  <button onclick="ask()">Ask</button>
+
+  <p id="answer"></p>
+
+  <script>
+    function ask() {
+      document.getElementById("answer").innerText =
+        "AI reply will come here (next step me AI add karenge)";
+    }
+  </script>
+</body>
+</html>
